@@ -1,0 +1,32 @@
+.navbar{
+  position: fixed;
+}
+.navbarList {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+}
+
+.navbarItem {
+ float: right;
+}
+
+.navbarItem a {
+ display: block;
+ color: #000000;
+ text-align: center;
+ margin-right: 5px;
+ padding: 10px;
+ text-decoration: none;
+ cursor: pointer;
+ font-size: 22px;
+ font-weight: bold;
+}
+
+.navbarItem a:hover {
+ /* background-color: #6200ff; */
+ background: -webkit-linear-gradient(right, #6200ff, #a5c1ff);
+ color: white;
+ border-radius: 7px;
+}

@@ -1,0 +1,207 @@
+
+.MakeToDoList{
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 960px;
+  background-color: #fbfbfb;
+  padding: 60px 20px 100px 20px;
+  border-radius: 30px;
+  box-shadow: 0px 3px 7px rgb(151 148 148);
+}
+.inputs{
+  width: 960px;
+  padding-top: 47px;
+  text-align: center;
+}
+.titleInput{
+  width: 17rem;
+  padding: 6px 12px;
+  font-size: 21px;
+  color: #555;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #fbfbfb;
+  outline: none;
+}
+
+.logo{
+  text-align: center;
+  font: inherit;
+}
+.taskInput{
+  margin-top: 10px;
+  width: 33rem;
+  padding: 6px 12px;
+  font-size: 21px;
+  color: #555;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #fbfbfb;
+  outline: none;
+}
+.inputDiv{
+  display: flex;
+  margin-top: 40px;
+  margin-left: 22px;
+}
+.AddIcon{
+  position: relative;
+  top: 12px;
+  right: 40px;
+  color:rgb(121, 119, 119);
+  padding-right: 20px;
+  cursor: pointer;
+}
+.AddIcon:hover{
+  color: rgb(197, 193, 193);
+}
+
+.errorMassage{
+  color:rgb(255, 9, 9);
+  text-align: center;
+  font-size: 28px;
+  animation: animate__bounceIn; 
+  animation-duration: 2s; 
+}
+
+.calendar{
+  font-family: sans-serif;
+  display: flex;
+  width: 31rem;
+  text-align: left;
+  font-size: large;
+  margin-top: 70px;
+  margin-right: 138px;
+}
+
+.date{
+    padding-block: 2px;
+    border-top-style: hidden;
+   border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    text-align: end;
+}
+ 
+.calendarContainer *, .datepicker-input{
+    font-size: 22px;
+    outline: none;
+    color:rgb(43, 42, 42);
+    background-color: #fbfbfb;
+    outline: none;  
+}
+
+.startTime{
+  width: 132px;
+  margin-right: 21px;
+  margin-left: 152px;
+}
+.TimeInput{
+  background-color: #fbfbfb;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  outline: none;
+  cursor: pointer;
+}
+.endTime{
+  width: 132px;
+}
+.divbutton{
+  width: 130px;
+  margin-top: 60px;
+  margin-right: 97px;
+  display: flex;
+  justify-content: end;
+}
+.submiteButton{
+  width: 82px;
+  height: 36px;
+  margin-top: 56px;
+  margin-right: 138px;
+  font-size: 21px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #6200ff;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  outline: none;
+  border: hidden;
+}
+.submiteButton:hover{
+  background-color: black;
+  box-shadow: 0 0 10px 0 #6200ff inset, 0 0 5px 2px #6200ff;
+}
+.Tasks{
+  width: 36.5rem;
+  margin-right: 94px;
+}
+.Items{
+  list-style-type: none;
+  margin-top: 45px;
+}
+.item{
+  border-radius: 5px;
+  padding: 28px 17px;
+  margin-top: 24px;
+  background-color: #e3f0f5;
+  position: relative;
+  word-break: break-word;
+}
+.time{
+  display: flex;
+    justify-content: left;
+}
+.title{
+  font-weight: bold;
+  font-size: large;
+  padding-right: 14px;
+}
+.task{
+  font-size: 22px;
+}
+.Icons{
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+}
+.checkIcon{
+  color:#000000;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.checkIcon:hover{
+  color: #6200ff;
+}
+.deleteIcon{
+  color:#000000;
+  cursor: pointer;
+  font-weight: bold;
+}
+.deleteIcon:hover{
+  color: #6200ff;
+}
+.st{
+  margin-left: 15px;
+  margin-right: 12px;
+}
+.Item2{
+  border-radius: 5px;
+  padding: 6px 12px;
+  margin-top: 24px;
+  background-color:#6200ff;
+  text-decoration-line: line-through;
+}
